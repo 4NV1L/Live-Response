@@ -29,7 +29,26 @@ This does require root priviledges, and to be run within the /tmp directory. Mak
 chmod +x ./LinResponse.sh
 ./LinResponse.sh
 ```
-
+* Once executed (Within /tmp as root) the script will initiate creating the following directory hierarchy: 
+```sh
+/tmp/Forensics$ ls -thrl
+total 128K
+drwxr-xr-x  3 root root 4.0K Apr  7 03:31 Incident
+-rw-r--r--  1 root root 113K Apr  7 03:31 hashes.csv
+drwxr-xr-x 17 root root 4.0K Apr  7 03:32 Backuplogs
+-rw-r--r--  1 root root  204 Apr  7 03:32 potential-Cryptominers.txt
+```
+* /Backuplogs will contain your entire /var/log directory
+* /Incident will contain your script collection 
+```sh
+$ ls
+MacMapping.txt              diskusage.txt            hidden-files.txt    last_users.txt         mount.txt                 process-tree.txt  sudoers_file.txt
+awskeyfiles.txt             dmesg.txt                home.txt            listeningproc-TCP.txt  netrouting.txt            processes.txt     tmp.txt
+bash_history_all_users.txt  docker-files.txt         hosts-file.txt      listeningproc-UDP.txt  netstat.txt               roothistory.txt   user-history-files.txt
+binfiles.txt                etc.txt                  ifconfig.txt        listeningproc.txt      netstat_est.txt           sbinfiles.txt     useraccountstats.txt
+cronjobs.txt                group_file.txt           iptables.txt        log.txt                passwd_file.txt           shadow_file.txt
+current_users.txt           hidden-files-hashes.txt  kernel-modules.txt  mail.txt               private_ssh_keyfiles.txt  socketinfo.txt
+```
 
 ### References 
 
