@@ -49,6 +49,15 @@ binfiles.txt                etc.txt                  ifconfig.txt        listeni
 cronjobs.txt                group_file.txt           iptables.txt        log.txt                passwd_file.txt           shadow_file.txt
 current_users.txt           hidden-files-hashes.txt  kernel-modules.txt  mail.txt               private_ssh_keyfiles.txt  socketinfo.txt
 ```
+### Command List
+List of commands enabled in the script (coming soon)
+
+
+### Future work
+* Stress testing other operating systems. 
+* Create Downsized version of script, to remove redundant commands. 
+
+
 
 ### References 
 
