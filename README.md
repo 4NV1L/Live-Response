@@ -4,7 +4,9 @@
 [![NPM Version][bash-image]][npm-url]
 [![NPM Version][Forensics-image]][npm-url]
 
-![](https://github.com/4NV1L/Live-Response/blob/master/Script_Screenshot.png)
+<p align="center">
+  <img width="660" height="400" src="https://github.com/4NV1L/Live-Response/blob/master/Script_Screenshot.png">
+</p>
 
 ## Description
 
