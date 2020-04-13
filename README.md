@@ -4,6 +4,8 @@
 [![NPM Version][bash-image]][npm-url]
 [![NPM Version][Forensics-image]][npm-url]
 
+![](https://github.com/4NV1L/Live-Response/blob/master/Script_Screenshot.png)
+
 ## Description
 
 Through most intrusion events, or incidents you will want to initiate a live-response investigation. The goal of the script is mainly data collection and doing so while keeping the integrity of the evidence you collect. Live data collections should be conducted with minimal changes on the system, or if there are changes, they need to be logged. The level of changes to the target system will vary dependent on the organization needs.  With this bash script you will find evidence collecting commands and an audit trail for each command run on the system. You will have created folders in /tmp where you can access this data or compress it, to ship it off to a different machine. 
