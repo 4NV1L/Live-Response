@@ -1,4 +1,4 @@
-# Live-Response
+# Live-Response (No Longer Supported)
 > Linux Incident Response Bash script for live-response purposes.
 
 [![NPM Version][bash-image]][npm-url]
@@ -18,10 +18,6 @@ This is a continuous project, being tested, and changed as I have time. Please f
 
 ```sh
 Ubuntu - Tested
-Centos - Pending 
-RedHat - Pending 
-MacOSX - Pending 
-Debian - Pending 
 ```
 ### Usage 
 
